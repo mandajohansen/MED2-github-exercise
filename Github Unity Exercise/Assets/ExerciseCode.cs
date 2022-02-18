@@ -16,7 +16,7 @@ public class ExerciseCode : MonoBehaviour
         
         Debug.Log("value after calling function: " + myVariable);
     }
-
+//hej med dig
     public void PassByValue(int var)
     {
         var = var + 10;
