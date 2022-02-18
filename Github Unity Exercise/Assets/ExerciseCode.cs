@@ -12,6 +12,7 @@ public class ExerciseCode : MonoBehaviour
 
         // Call the function 'PassByValue' below this line – pass 'myVariable' as argument.
         PassByReference(ref myVariable);
+        // Forklaring :))
         
         Debug.Log("value after calling function: " + myVariable);
     }
@@ -27,5 +28,4 @@ public class ExerciseCode : MonoBehaviour
         var = var + 20;
         Debug.Log("Value inside function: " + var);
     }
-    
 }
